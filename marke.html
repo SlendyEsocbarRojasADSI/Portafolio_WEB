@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="icon" type="image/png" href="img/icon.png"/>
+    <title>Portafolio Slendy</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <!--MENU ENCABEZADO--->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="index.html">Inicio</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">DESCRIPCION</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">MARKETING</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!--SECCION MENU-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Menu.jpeg" alt="">
+            </div>
+            <h1>Marketing Digital</h1>
+            <h2>Tecnologo ADSI - Ilustrador Independiente - Marketing Independiente</h2>
+            <div class="redes">
+                <a href="https://www.instagram.com/espada__kyojuro/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@espada__kyojuro" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.youtube.com/@espada__kyojuro" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="www.linkedin.com/in/slendy-escobar-rojas-350975224" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION DESCRIPCION-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Descripcion</h2>
+            <p><span>Hola, soy Slendy Escobar Rojas.</span> directora de marketing digital independiente con 5 años de experiencia en la realizacion de campañas personales en el aumento de la notoriedad de las marcas. Experta en marketing de contenido.</p>
+            <p>Marketing creativo y eficiente con experiencia en la construccion de relaciones solidas y duraderos con los clientes desarrollo y lanzamineto de campañas de exito. Capacidad para adaptarse a entornos de ritmo rapido y exigente. Enfoque orientado al analisis de las ultimas tendencias del mercado y a la identificacion de estrategias de marketing que satisfagan las necesidades de los consumidores.</p>
+
+            <div class="fila">
+
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            06-10-2003
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            (57) 3202082094
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            kattypaint1@gmail.cocm
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Marketing Independiente</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--intereses-->
+                <div class="col">
+                    <h3>Intereses en Marketing</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-laptop"></i>
+                            <span>SITIOS WEB</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-hand-holding-heart"></i>
+                            <span>REDES SOCIALES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>EMAIL MARKETING</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <span>SEO</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-envelopes-bulk"></i>
+                            <span>PUBLICIDAD EN LINEA</span>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+
+            <!--descargar CV
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>-->
+        </div>
+    </section>
+
+    <!--SECCION HABILIDADES-->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>habilidades</h2>
+            <div class="fila">
+
+                <!--habilidades tecnicas-->
+                <div class="col">
+                    <h3>Habilidades Tecnicas</h3>
+                    <div class="skills">
+                        <span>Instagram</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Tik Tok</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Youtube</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Linkedln</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Patreon</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>67%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Kofi</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>67%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Twicth</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>67%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Notion</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--habilidades profesionales-->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="skills">
+                        <span>Comunicación</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Creatividad</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>87%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Dedicación</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Adaptacion al Cambio</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Definición de objetivos</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Recopilación de datos</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Identificación de oportunidades</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION CURRICULUM-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Diseño Basico De Productos Textiles</h4>
+                        <span class="casa">Servicio Nacional De Aprendizaje Sena</span>
+                        <span class="fecha">2021 - 2021</span>
+                        <p></p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>English Dot Works Beginner Ingles</h4>
+                        <span class="casa">Servicio Nacional De Aprendizaje Sena</span>
+                        <span class="fecha">2021 - 2021</span>
+                        <p></p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Marketing Digital</h4>
+                        <span class="casa">Independiente</span>
+                        <span class="fecha">2016 - 2024</span>
+                        <p></p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION PORTAFOLIO-->
+    <section id="portafolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Marketing</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="marke/01.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Marketing</h3>
+                        <p>2023</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="marke/02.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Marketing</h3>
+                        <p>2023</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="marke/03.jpg" alt="" class="post-img">
+                    <div class="overlay">
+                        <h3>Marketing</h3>
+                        <p>2024</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="marke/04.png" alt="" class="post-img">
+                    <div class="overlay">
+                        <h3>Marketing</h3>
+                        <p>2024</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="marke/05.png" alt="" class="post-img">
+                    <div class="overlay">
+                        <h3>Marketing</h3>
+                        <p>2024</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="marke/06.png" class="post-img">
+                    <div class="overlay">
+                        <h3>Marketing</h3>
+                        <p>2024</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="marke/07.png" alt="" class="post-img">
+                    <div class="overlay">
+                        <h3>Marketing</h3>
+                        <p>2024</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="marke/08.png" alt="" class="post-img">
+                    <div class="overlay">
+                        <h3>Marketing</h3>
+                        <p>2024</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="marke/09.jpg" alt="" class="post-img">
+                    <div class="overlay">
+                        <h3>Marketing</h3>
+                        <p>2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION CONTACTO-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/mapa.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Colorados Norte, Bucaramanga - Santander
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: (57) 3202082094 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: kattypaint1@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--PIE DE PAGINA-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.instagram.com/espada__kyojuro/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@espada__kyojuro"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.youtube.com/@espada__kyojuro"><i class="fa-brands fa-youtube"></i></a>
+                <a href="www.linkedin.com/in/slendy-escobar-rojas-350975224"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="marke.js"></script>
+</body>
+</html>
